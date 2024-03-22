@@ -2,7 +2,7 @@
 
 ## Description
 
-This program is designed to manage and record client appointments and flight details. It's built in C++ and utilizes a custom implementation of a linked list to efficiently handle various operations such as adding, searching, and removing flight records.
+This program is designed to manage and record client appointments. It's built in C++ and utilizes a custom implementation of a linked list to efficiently handle various operations such as adding, searching, and removing client records.
 
 ## Features
 
@@ -17,20 +17,11 @@ This program is designed to manage and record client appointments and flight det
 ## Prerequisites
 - C++ Compiler (e.g., g++, Clang)
 - Basic knowledge of C++ and object-oriented programming
-## Installation
-Clone the repository:
-bash
-Copy code
-git clone [repository URL]
-Navigate to the project directory:
-bash
-Copy code
-cd [project folder]
+
 ## Compilation
 To compile the program, run the following command in the project directory:
 
-css
-Copy code
+
 g++ -o client_tracker main.cpp LinkedList.cpp
 ## Usage
 
